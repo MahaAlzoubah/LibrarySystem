@@ -8,6 +8,7 @@ public class Book
    public LibMember issuedTo;
   
   //Default constructor (without any parameters)
+
    public Book()
    {
       title="Unknown";
@@ -28,7 +29,8 @@ public class Book
          this.isbn = isbn;
       else
       {
-         System.out.println("ISBN not 13 light");
+
+         System.out.println("ISBN length should be 13 digit");
          return;
       }
       this.title = title;
@@ -40,6 +42,7 @@ public class Book
          accessionNum=1001;
       else 
          this.accessionNum = accessionNum;
+
    }
    
    //set and get methods for all attributes
@@ -93,7 +96,7 @@ public class Book
          this.isbn = isbn;
       else
       {
-         System.out.println("ISBN not 13 light");
+         System.out.println("ISBN not 13 digit");
          return;
       }
    }

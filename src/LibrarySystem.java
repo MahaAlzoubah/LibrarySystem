@@ -16,7 +16,7 @@ public class LibrarySystem {
         booksListSize = 0;
         membersListSize = 0;
     }
-
+    // so base on each method I check
     //This method is used to add a book to the system, first it checks if the book already exists in the
     // system,if(searchBook(book.getAccessionNum()) != -1)//if already exists return false;
     //if doesn't exist then add it booksList.add(book); booksListSize++; return true;if it does not,
